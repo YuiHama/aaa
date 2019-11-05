@@ -1,0 +1,825 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?mwu681');
+    src: url('../fonts/icomoon.eot?mwu681#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?mwu681') format('truetype'),
+    url('../fonts/icomoon.woff?mwu681') format('woff'),
+    url('../fonts/icomoon.svg?mwu681#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: taohua;
+    src: url("../fonts/恋上桃花源(非商用)_©字体视界.ttf");
+}
+
+body {
+    user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.header {
+    width: 100%;
+    height: 120px;
+    background-color: transparent;
+    z-index: 2;
+}
+
+.header:hover {
+    background-color: ghostwhite;
+    opacity: .6;
+}
+
+.headerss {
+    background-color: ghostwhite;
+    opacity: .6;
+    width: 100%;
+    height: 120px;
+}
+
+.headerzz {
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.headerzz .logo {
+    background-size: cover;
+    width: 165px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.headerzz ul {
+    list-style: none;
+    position: absolute;
+    top: -15px;
+    left: 140px;
+}
+
+.headerzz ul li {
+    display: inline-block;
+    margin: 40px 60px;
+    width: 100px;
+    height: 80px;
+}
+
+.headerzz ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    font-family: taohua;
+}
+
+.headerzz ul li a:hover {
+    color: darkred;
+}
+
+.hide {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: ghostwhite;
+    opacity: .9;
+    position: relative;
+    overflow: auto;
+    display: none;
+    z-index: 1;
+}
+
+.hide a {
+    text-decoration: none;
+    color: black;
+    font-family: taohua;
+}
+
+.hide a:hover {
+    color: darkred;
+}
+
+.interval {
+    height: 3px;
+    width: 200px;
+    background-color: #aca0a0;
+    margin: 75px 0 0 60px;
+}
+
+.hide ul {
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.hide ul li {
+    margin: 10px 0;
+}
+
+.hide ul a {
+    font-size: 26px;
+}
+
+.fa {
+    font-size: 30px;
+    margin-left: 60px;
+    position: absolute;
+    top: 20px;
+}
+
+.hideright {
+    width: 65%;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    right: 40px;
+}
+
+.hideright p {
+    font-size: 30px;
+    margin-left: 20px;
+    position: absolute;
+    top: -10px;
+    font-family: taohua;
+}
+
+.picdisplay {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fp {
+    font-family: taohua;
+    font-size: 24px;
+    position: absolute;
+    top: 150px;
+    color: white;
+    left: 10px;
+}
+
+.sp {
+    font-family: taohua;
+    font-size: 24px;
+    position: absolute;
+    top: 150px;
+    color: white;
+    left: 210px;
+}
+
+.tp {
+    font-family: taohua;
+    font-size: 24px;
+    position: absolute;
+    top: 150px;
+    color: white;
+    left: 410px;
+}
+
+.forp {
+    font-family: taohua;
+    font-size: 24px;
+    position: absolute;
+    top: 150px;
+    color: white;
+    left: 610px;
+}
+
+.picdisplay .pic1 {
+    width: 180px;
+    height: 180px;
+    background: url("../img/仙女湖.jpg");
+    background-size: cover;
+}
+
+.picdisplay .pic2 {
+    width: 180px;
+    height: 180px;
+    background: url("../img/庐山湿地公园.jpg");
+    background-size: cover;
+}
+
+.picdisplay .pic3 {
+    width: 180px;
+    height: 180px;
+    background: url("../img/三清山.jpg");
+    background-size: cover;
+}
+
+.picdisplay .pic4 {
+    width: 180px;
+    height: 180px;
+    background: url("../img/鄱阳湖湿地公园.jpg");
+    background-size: cover;
+}
+
+.picdisplay2 {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 270px;
+    right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.picdisplay2 .pic1 {
+    width: 180px;
+    height: 180px;
+    background: url("../img/龙虎山.jpg");
+    background-size: cover;
+}
+
+.picdisplay2 .pic2 {
+    width: 180px;
+    height: 180px;
+    background: url("../img/婺源.jpg");
+    background-size: cover;
+}
+
+.picdisplay2 .pic3 {
+    width: 180px;
+    height: 180px;
+    background: url("../img/八一大桥.jpg");
+    background-size: cover;
+}
+
+.picdisplay2 .pic4 {
+    width: 180px;
+    height: 180px;
+    background: url("../img/滕王阁.jpg");
+    background-size: cover;
+}
+
+.picdisplay3 {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 470px;
+    right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.picdisplay3 .pic1 {
+    width: 180px;
+    height: 180px;
+    background: url("../img/八一广场.jpg");
+    background-size: cover;
+}
+
+.picdisplay3 .pic2 {
+    width: 180px;
+    height: 180px;
+    background: url("../img/井冈山.jpg");
+    background-size: cover;
+}
+
+.picdisplay3 .pic3 {
+    width: 180px;
+    height: 180px;
+    background: url("../img/江湾.jpg");
+    background-size: cover;
+}
+
+.picdisplay3 .pic4 {
+    width: 180px;
+    height: 180px;
+    background: url("../img/景德镇.jpg");
+    background-size: cover;
+}
+
+.bigbg {
+    z-index: -1;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
+
+.bg {
+    background-size: cover;
+    background-image: url("../img/a2.jpg");
+    z-index: -1;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    animation: bg 30s ease-in infinite;
+}
+
+@keyframes bg {
+    0% {
+        background-image: url("../img/a2.jpg");
+        transform: scale(1.1);
+    }
+    19% {
+        transform: scale(1.0);
+    }
+    20% {
+        opacity: .9;
+        background-image: url("../img/a1.jpg");
+    }
+    21% {
+        opacity: 1.0;
+    }
+    30% {
+        transform: scale(1.02);
+    }
+    40% {
+        background-image: url("../img/a3.jpg");
+        transform: scale(1.04);
+    }
+    50% {
+        transform: scale(1.06);
+    }
+    60% {
+        background-image: url("../img/a4.jpg");
+        transform: scale(1.08);
+    }
+    70% {
+        transform: scale(1.1);
+    }
+    80% {
+        background-image: url("../img/a5.jpg");
+        transform: scale(1.06);
+    }
+    90% {
+        transform: scale(1.08);
+    }
+    100% {
+        transform: scale(1.1);
+        background-image: url("../img/a2.jpg");
+    }
+}
+
+@-ms-keyframes bg {
+    0% {
+        background-image: url("../img/a2.jpg");
+        transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -moz-background-image: url("../img/a2.jpg");
+    }
+    19% {
+        transform: scale(1.0);
+        -ms-transform: scale(1.0);
+    }
+    20% {
+        opacity: .9;
+        background-image: url("../img/a1.jpg");
+        -moz-background-image: url("../img/a1.jpg");
+
+    }
+    21% {
+        opacity: 1.0;
+    }
+    30% {
+        transform: scale(1.02);
+        -ms-transform: scale(1.02);
+    }
+    40% {
+        background-image: url("../img/a3.jpg");
+        -moz-background-image: url("../img/a3.jpg");
+
+        transform: scale(1.04);
+        -ms-transform: scale(1.04);
+
+    }
+    50% {
+        transform: scale(1.06);
+        -ms-transform: scale(1.06);
+
+    }
+    60% {
+        background-image: url("../img/a4.jpg");
+        -moz-background-image: url("../img/a4.jpg");
+        transform: scale(1.08);
+        -ms-transform: scale(1.08);
+
+    }
+    70% {
+        transform: scale(1.1);
+        -ms-transform: scale(1.1);
+
+    }
+    80% {
+        background-image: url("../img/a5.jpg");
+        -moz-background-image: url("../img/a5.jpg");
+        transform: scale(1.06);
+        -ms-transform: scale(1.06);
+
+    }
+    90% {
+        transform: scale(1.08);
+        -ms-transform: scale(1.08);
+
+    }
+    100% {
+        transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -moz-background-image: url("../img/a2.jpg");
+        background-image: url("../img/a2.jpg");
+    }
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 700px;
+    z-index: -1;
+    margin-top: 50px;
+}
+
+.contenttop {
+    width: 1000px;
+    height: 80px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: taohua;
+    line-height: 80px;
+    border-bottom: 1px solid grey;
+}
+
+.map-con {
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+
+#map {
+    width: 500px;
+    height: 400px;
+    border-radius: 45px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+
+.btns {
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    margin-top: 80px;
+}
+
+.btns button {
+    width: 80px;
+    height: 25px;
+    background-color: transparent;
+    outline: none;
+    margin: 8px 10px;
+}
+
+.abtns button {
+    color: #8fcddf;
+    border: 1px solid #8fcddf;
+}
+
+.abtns button:hover {
+    color: white;
+    background-color: #8fcddf;
+}
+
+.bbtns button {
+    color: #149530;
+    border: 1px solid #149530;
+}
+
+.bbtns button:hover {
+    color: white;
+    background-color: #149530;
+}
+
+.quan {
+    color: darkred;
+    border: 1px solid darkred;
+}
+
+.quan:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.cbtns {
+    margin-top: 30px;
+}
+
+.cbtns button {
+    border: 1px solid #ae8da8;
+    color: #ae8da8;
+}
+
+.dbtns button {
+    border: 1px solid #d56b39;
+    color: #d56b39;
+}
+
+.cbtns button:hover {
+    background-color: #ae8da8;
+    color: white;
+}
+
+.dbtns button:hover {
+    color: white;
+    background-color: #d56b39;
+}
+
+.contentbot {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.abtnsson {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    display: none;
+}
+
+.bigdis {
+    width: 250px;
+    height: 270px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.bigdis .title {
+    width: 250px;
+    height: 25px;
+    background-color: #8fcddf;
+    text-align: center;
+    font-family: taohua;
+    line-height: 25px;
+    letter-spacing: 4px;
+}
+
+.bigdis .dispic {
+    width: 250px;
+    height: 200px;
+    background: url("../img/南昌夜市.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bigdis .dispic:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bigdis .dispic:hover:before {
+    background-color: rgba(0, 0, 0, .3);
+
+}
+
+.bigdis .descr {
+    width: 250px;
+    height: 75px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.ml {
+    margin-left: 330px;
+    position: absolute;
+    top: 0;
+}
+
+.mls {
+    left: 290px;
+    position: absolute;
+}
+
+.mlss {
+    left: 580px;
+    position: absolute;
+}
+
+.bigdis .dispic2 {
+    width: 250px;
+    height: 200px;
+    background: url("../img/八大山人.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bigdis .dispic2:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bigdis .dispic2:hover:before {
+    background-color: rgba(0, 0, 0, .3);
+
+}
+
+.bigdis .dispic3 {
+    width: 250px;
+    height: 200px;
+    background: url("../img/万达茂.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bigdis .dispic4 {
+    width: 250px;
+    height: 200px;
+    background: url("../img/梅岭.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.top {
+    position: absolute;
+    top: 270px;
+}
+
+.bigdis .dispic5 {
+    width: 250px;
+    height: 200px;
+    background: url("../img/八一广场2.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bigdis .dispic6 {
+    width: 250px;
+    height: 200px;
+    background: url("../img/秋水广场.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bigdis .dispic7 {
+    width: 250px;
+    height: 200px;
+    background: url("../img/起义纪念馆.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bigdis .dispic8 {
+    width: 250px;
+    height: 200px;
+    background: url("../img/南昌大学.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bigdis .dispic3:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bigdis .dispic3:hover:before {
+    background-color: rgba(0, 0, 0, .3);
+
+}
+
+.bigdis .dispic4:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bigdis .dispic4:hover:before {
+    background-color: rgba(0, 0, 0, .3);
+
+}
+
+.bigdis .dispic5:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bigdis .dispic5:hover:before {
+    background-color: rgba(0, 0, 0, .3);
+
+}
+
+.bigdis .dispic6:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bigdis .dispic6:hover:before {
+    background-color: rgba(0, 0, 0, .3);
+
+}
+
+.bigdis .dispic7:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bigdis .dispic7:hover:before {
+    background-color: rgba(0, 0, 0, .3);
+
+}
+
+.bigdis .dispic8:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bigdis .dispic8:hover:before {
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.footer {
+    width: 100%;
+    height: 500px;
+    background-color: #aca0a0;
+    position: absolute;
+    top: 1920px;
+}
+
+.tips {
+    width: 1000px;
+    height: 160px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    box-shadow: 0 0 5px gainsboro;
+}
+
+.tips ul {
+    list-style: none;
+}
+
+.tips .firul {
+    position: absolute;
+    top: -10px;
+    left: -28px;
+}
+
+.tips .firul li {
+    font-family: icomoon;
+    float: left;
+    font-size: 40px;
+    margin: 20px;
+    border-radius: 90px;
+    padding: 10px 14px;
+    background-color: #e5e5e5;
+}
+
+.tips .secul {
+    position: absolute;
+    top: 82px;
+    left: -24px;
+}
+
+.tips .secul li {
+    font-family: taohua;
+    float: left;
+    margin: 0 22.5px;
+}
+
+.tips .firul li:hover {
+    background-color: #d75d5d;
+}

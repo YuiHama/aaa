@@ -1,0 +1,490 @@
+.bg1{
+    background: url("../img/a6.jpg");
+    z-index: -1;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    background-size: cover;
+}
+.bg1 p {
+    font-size: 50px;
+    position: absolute;
+    top: 380px;
+    left: 150px;
+}
+
+.visit {
+    width: 1200px;
+    height: 580px;
+    position: absolute;
+    top: 700px;
+    z-index: -1;
+    margin-top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.visit p {
+    font-size: 36px;
+    margin-left: 20px;
+    font-family: taohua;
+}
+
+.disinfor {
+    width: 1200px;
+    height: 470px;
+}
+
+.inforsa {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inforsa .inforbox {
+    width: 220px;
+    height: 220px;
+}
+
+.p1 {
+    background: url("../img/滕王阁.jpg");
+    background-size: cover;
+}
+
+.p2 {
+    background: url("../img/欧阳修.jpg");
+    background-size: cover;
+}
+
+.p3 {
+    background: url("../img/万寿宫.jpeg");
+    background-size: cover;
+}
+
+.p4 {
+    background: url("../img/娱乐.jpg");
+    background-size: cover;
+}
+
+.p5 {
+    background: url("../img/美食.jpg");
+    background-size: cover;
+}
+
+.inforsb {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.inforsb .inforbox {
+    width: 220px;
+    height: 220px;
+}
+
+.p6 {
+    background: url("../img/购物.jpg");
+    background-size: cover;
+}
+
+.p7 {
+    background: url("../img/自然.jpg");
+    background-size: cover;
+}
+
+.p8 {
+    background: url("../img/夜市.jpg");
+    background-size: cover;
+}
+
+.p9 {
+    background: url("../img/酒店.jpg");
+    background-size: cover;
+}
+
+.p10 {
+    background: url("../img/其他信息.jpg");
+    background-size: cover;
+}
+
+.inforbox {
+    font-size: 24px;
+    line-height: 220px;
+    text-align: center;
+    color: white;
+}
+
+.inforbox:hover {
+    color: #dd6969;
+}
+
+.Strategy {
+    width: 1200px;
+    height: 580px;
+    position: absolute;
+    top: 1340px;
+    z-index: -1;
+    margin-top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Strategy p {
+    font-size: 36px;
+    margin-left: 20px;
+    font-family: taohua;
+}
+
+.strategyinfor {
+    width: 1200px;
+    height: 1070px;
+    position: relative;
+}
+
+.strategyinfor .bigbox {
+    width: 590px;
+    height: 520px;
+    background: url("../img/双子塔.jpg");
+    background-size: cover;
+
+}
+
+.strategyinfor .bigbox p {
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    top: 440px;
+    font-family: "";
+}
+
+.smallboxsa {
+    width: 590px;
+    height: 255px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.smallboxsb {
+    width: 590px;
+    height: 255px;
+    position: absolute;
+    top: 265px;
+    right: 0;
+}
+
+.smallboxsazz {
+    width: 285px;
+    height: 255px;
+    background: url("../img/鄱阳湖湿地公园1.jpg");
+    background-size: cover;
+    position: absolute;
+}
+
+.smallboxsazz p {
+    font-family: "";
+    font-size: 24px;
+    position: absolute;
+    top: 190px;
+    color: white;
+}
+
+.smallboxsazz1 p {
+    font-family: "";
+    font-size: 24px;
+    position: absolute;
+    top: 190px;
+    color: white;
+}
+
+.smallboxsazz1 {
+    width: 285px;
+    height: 255px;
+    background: url("../img/明月山.jpg");
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.smallboxsbzz {
+    width: 285px;
+    height: 255px;
+    background: url("../img/曙光路陶瓷古玩城.jpg");
+    background-size: cover;
+    position: absolute;
+}
+
+.smallboxsbzz p {
+    font-family: "";
+    font-size: 24px;
+    position: absolute;
+    top: 190px;
+    color: white;
+}
+
+.smallboxsbzz1 p {
+    font-family: "";
+    font-size: 24px;
+    position: absolute;
+    top: 190px;
+    color: white;
+}
+
+.smallboxsbzz1 {
+    width: 285px;
+    height: 255px;
+    background: url("../img/南昌之星游乐园.jpg");
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.flexboxsa {
+    margin-top: 20px;
+    width: 1200px;
+    height: 255px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexboxsb {
+    margin-top: 20px;
+    width: 1200px;
+    height: 255px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexboxsabox {
+    width: 285px;
+    height: 255px;
+    background-color: #8fcddf;
+}
+
+.flexboxsbbox {
+    width: 285px;
+    height: 255px;
+    background-color: #8fcddf;
+}
+
+.p11 {
+    background: url("../img/婺源清华唐代古街.jpg");
+    background-size: cover;
+}
+
+.p12 {
+    background: url("../img/梅岭1.jpg");
+    background-size: cover;
+}
+
+.p13 {
+    background: url("../img/天香园.jpg");
+    background-size: cover;
+}
+
+.p14 {
+    background: url("../img/石钟山.jpg");
+    background-size: cover;
+}
+
+.p15 {
+    background: url("../img/遥里古镇.jpg");
+    background-size: cover;
+}
+
+.p16 {
+    background: url("../img/万达主题乐园.jpg");
+    background-size: cover;
+}
+
+.p17 {
+    background: url("../img/绿地博览中心.jpg");
+    background-size: cover;
+}
+
+.p18 {
+    background: url("../img/仙女湖.jpg");
+    background-size: cover;
+}
+
+.flexboxsabox p {
+    font-size: 24px;
+    font-family: "";
+    position: absolute;
+    top: 730px;
+    color: white;
+}
+
+.flexboxsbbox p {
+    font-size: 24px;
+    font-family: "";
+    position: absolute;
+    top: 1000px;
+    color: white;
+}
+
+.activity {
+    width: 1200px;
+    height: 440px;
+    position: absolute;
+    top: 2580px;
+    z-index: -1;
+    margin-top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.activity p {
+    font-size: 36px;
+    margin-left: 20px;
+    font-family: taohua;
+}
+
+.actiinfor {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actiinfor .actibox {
+    width: 285px;
+    height: 325px;
+}
+
+.actibox .actiboxps {
+    width: 285px;
+    height: 200px;
+}
+
+.actibox p {
+    overflow: auto;
+    font-size: 16px;
+    font-family: "";
+    height: 100px;
+    text-indent: 32px;
+}
+
+.actibox span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.p19 {
+    background: url("../img/万寿朝仙会.jpg");
+}
+
+.p20 {
+    background: url("../img/天香园旅游文化节.jpg");
+    background-size: cover;
+
+}
+
+.p21 {
+    background: url("../img/中国景德镇国际陶瓷博览会.jpg");
+    background-size: cover;
+}
+
+.p22 {
+    background: url("../img/中国红歌会.jpg");
+    background-size: cover;
+}
+
+.photos {
+    width: 1200px;
+    height: 770px;
+    position: absolute;
+    top: 3090px;
+    z-index: -1;
+    margin-top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fafafa;
+}
+
+.photos p {
+    font-size: 36px;
+    margin-left: 20px;
+    font-family: taohua;
+    margin-bottom: 60px;
+}
+
+.img1 {
+    width: 30%;
+    border: 5px solid #767676;
+    transform: rotate(10deg);
+    position: absolute;
+}
+
+.img1:hover {
+    transform: rotate(12deg);
+
+}
+
+.img2 {
+    width: 30%;
+    position: absolute;
+    top: 140px;
+    border: 5px solid #767676;
+    left: 400px;
+}
+
+.img2:hover {
+    transform: rotate(-6deg);
+
+}
+.img3{
+    width: 30%;
+    position: absolute;
+    top: 135px;
+    left: 800px;
+    border: 5px solid #767676;
+
+}
+.img3:hover {
+    transform: scale(1.1);
+}
+.img4{
+    width: 30%;
+    position: absolute;
+    top: 435px;
+    left: 20px;
+    border: 5px solid #767676;
+}
+.img5{
+    width: 35%;
+    position: absolute;
+    top: 435px;
+    left: 420px;
+    border: 5px solid #767676;
+    transform: rotate(4deg);
+}
+.img6{
+    width: 30%;
+    position: absolute;
+    top: 435px;
+    left: 810px;
+    border: 5px solid #767676;
+    transform: rotate(4deg);
+}
+footer{
+    position: absolute;
+    top: 3870px;
+    height: 70px;
+    width: 100%;
+    background-color: #dfdfdf;
+}
+footer img{
+    background-size: cover;
+    width: 12%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+}
