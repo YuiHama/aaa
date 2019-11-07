@@ -1,0 +1,626 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?spugij');
+    src: url('../fonts/icomoon.eot?spugij#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?spugij') format('truetype'),
+    url('../fonts/icomoon.woff?spugij') format('woff'),
+    url('../fonts/icomoon.svg?spugij#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+body {
+    user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.headerTop {
+    height: 40px;
+    width: 100%;
+    background-color: #333333;
+    position: relative;
+    z-index: 999;
+}
+
+.headerTop .headerTopNav {
+    width: 1226px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.headerTopNavLeft {
+    position: absolute;
+    left: -42px;
+    top: 50%;
+    transform: translateY(-80%);
+}
+
+.headerTopNavLeft ul {
+    list-style: none;
+}
+
+.headerTopNavLeft ul li {
+    float: left;
+    margin: 0 3px;
+}
+
+.headerTopNavLeft ul li span {
+    font-size: 8px;
+    margin-left: 6px;
+    color: #424242;
+}
+
+.headerTopNavLeft ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.headerTopNavLeft ul li a:hover {
+    color: whitesmoke;
+}
+
+.code {
+    width: 120px;
+    height: 140px;
+    position: absolute;
+    top: 47px;
+    left: 75%;
+    box-shadow: 0 1px 2px lightgrey;
+    display: none;
+    background-color: white;
+}
+
+.code img {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.code p {
+    font-size: 14px;
+    position: absolute;
+    bottom: -5px;
+    transform: translateX(20%);
+}
+
+.headerTopNavRight {
+    position: absolute;
+    right: 150px;
+    top: 50%;
+    transform: translateY(-80%);
+}
+
+.headerTopNavRight ul {
+    list-style: none;
+}
+
+.headerTopNavRight ul li {
+    float: left;
+    margin: 0 3px;
+}
+
+.headerTopNavRight ul li span {
+    font-size: 8px;
+    margin-left: 6px;
+    color: #424242;
+}
+
+.headerTopNavRight ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.headerTopNavRight ul li a:hover {
+    color: whitesmoke;
+}
+
+.headerTopNavRight .cart {
+    background-color: #424242;
+    height: 40px;
+    width: 120px;
+    position: absolute;
+    right: -150px;
+    top: 50%;
+    transform: translateY(-26%);
+    color: #b0b0b0;
+}
+
+.cart p {
+    font-family: icomoon;
+    font-size: 12px;
+    text-align: center;
+}
+
+.cart:hover {
+    background-color: whitesmoke;
+    color: darkred;
+}
+
+.cartText {
+    position: absolute;
+    top: 47px;
+    right: -84%;
+    width: 350px;
+    height: 100px;
+    display: none;
+    box-shadow: 0 1px 2px lightgrey;
+}
+
+.cartText p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 75px;
+}
+
+.nav {
+    height: 100px;
+    width: 100%;
+}
+
+.nav .navContent {
+    height: 100px;
+    width: 1226px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.navContent .logoHide {
+    width: 54px;
+    height: 54px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.logoHide .logo {
+    position: absolute;
+    left: -55px;
+    width: 110px;
+}
+
+.logo img {
+    float: left;
+}
+
+.navUl {
+    position: absolute;
+    left: 150px;
+    top: 50%;
+    transform: translateY(-30%);
+}
+
+.navUl ul {
+    list-style: none;
+}
+
+.navUl ul li {
+    float: left;
+    height: 60px;
+}
+
+.navUl ul li a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #333333;
+}
+
+.navUl ul li a:hover {
+    color: darkred;
+}
+
+.navMenu {
+    width: 100%;
+    height: 220px;
+    background-color: white;
+    margin: 0 auto;
+    position: absolute;
+    top: 140px;
+    border-top: 1px solid #e5e5e5;
+    box-shadow: 0 2px 2px #e5e5e5;
+    display: none;
+    z-index: 999;
+}
+
+.navMenu .navMenuContent {
+    width: 1226px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navMenuContent2 {
+    width: 1226px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+}
+
+.navMenuContent3 {
+    width: 1226px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+}
+
+.navMenuContent4 {
+    width: 1226px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+}
+
+.navMenuContent5 {
+    width: 1226px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+}
+
+.navMenuContent6 {
+    width: 1226px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+}
+
+.navMenuContent7 {
+    width: 1226px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+}
+
+.navMenuContentone {
+    width: 100px;
+    height: 180px;
+    padding: 20px 52px;
+}
+
+.navMenuContentone a {
+    text-decoration: none;
+    color: black;
+}
+
+.navMenuContentone p {
+    text-align: center;
+    font-size: 12px;
+    color: darkred;
+}
+
+.navBorder {
+    width: 0px;
+    height: 100px;
+    border: .5px solid lightgrey;
+    position: relative;
+    top: -160px;
+    left: 150px;
+}
+
+.navTab {
+    width: 1226px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 22;
+}
+
+.navTab .navTabLeft {
+    width: 230px;
+    height: 500px;
+    background-color: #9197a2;
+    position: relative;
+    overflow: hidden;
+}
+
+.navTabLeft ul {
+    list-style: none;
+    position: absolute;
+    left: -40px;
+}
+
+.navTabLeft ul li {
+    width: 230px;
+    padding: 14px 20px;
+}
+
+.navTabLeft ul li:hover {
+    background-color: palevioletred;
+}
+
+.navTabLeft ul li span {
+    font-family: icomoon;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    right: 55px;
+}
+
+.navTabLeft ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.navTab .navTabContent {
+    height: 500px;
+    width: 996px;
+    position: absolute;
+    top: 0;
+    left: 230px;
+    display: none;
+    background-color: white;
+    box-shadow: 0 0 2px lightgrey;
+}
+
+.navFlex {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navFlex .navFlexBox {
+    width: 240px;
+    height: 50px;
+    background-color: lightgrey;
+    margin: 16px 0;
+}
+
+.navTabContent2 {
+    height: 350px;
+    width: 745px;
+    position: absolute;
+    top: 0;
+    left: 230px;
+    display: none;
+    background-color: white;
+    box-shadow: 0 0 2px lightgrey;
+
+}
+
+.navTabContent3 {
+    height: 350px;
+    width: 996px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    background-color: white;
+    box-shadow: 0 0 2px lightgrey;
+
+}
+
+.navTabContent4 {
+    height: 500px;
+    width: 996px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    background-color: white;
+    box-shadow: 0 0 2px lightgrey;
+
+}
+
+.navTabContent5 {
+    height: 420px;
+    width: 498px;
+    position: absolute;
+    top: 0;
+    left: 230px;
+    display: none;
+    background-color: white;
+    box-shadow: 0 0 2px lightgrey;
+
+}
+
+.navTabContent6 {
+    height: 430px;
+    width: 250px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 230px;
+    display: none;
+    box-shadow: 0 0 2px lightgrey;
+
+}
+
+.navTabContent7 {
+    height: 340px;
+    width: 498px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 230px;
+    display: none;
+    box-shadow: 0 0 2px lightgrey;
+
+}
+
+.navTabContent8 {
+    height: 500px;
+    width: 750px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 230px;
+    display: none;
+    box-shadow: 0 0 2px lightgrey;
+
+}
+
+.navTabContent9 {
+    height: 420px;
+    width: 250px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 230px;
+    display: none;
+    box-shadow: 0 0 2px lightgrey;
+
+}
+
+.navTabContent10 {
+    height: 340px;
+    width: 250px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 230px;
+    display: none;
+    box-shadow: 0 0 2px lightgrey;
+
+}
+
+.slide {
+    width: 1226px;
+    height: 500px;
+    background: url("../img/slide1.png");
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ad {
+    width: 1226px;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.ad .adLeft {
+    width: 230px;
+    height: 180px;
+    background-color: #5f5750;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.adLeft .adLeftContent {
+    width: 70px;
+    height: 90px;
+}
+
+.adLeftContent p:nth-child(1) {
+    font-family: icomoon;
+    font-size: 28px;
+    margin-top: 10px;
+    text-align: center;
+    color: lightgrey;
+    font-weight: 100;
+}
+
+.adLeftContent p:nth-child(2) {
+    text-align: center;
+    margin-top: -25px;
+    font-size: 12px;
+    color: lightgrey;
+
+}
+
+.adLeftContent p:hover {
+    color: white;
+}
+
+.adImg {
+    width: 996px;
+    height: 180px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.adImg img {
+    margin-left: 16px;
+}
+
+.adImg img:hover {
+    transform: translate3d(0, -2px, 0);
+}
+
+
+.main {
+    width: 100%;
+    height: 2000px;
+    margin-top: 20px;
+    background-color: #f5f5f5;
+}
+
+.main .mainad {
+    width: 1226px;
+    height: 120px;
+    background: url("../img/ad.png");
+    margin: 0 auto;
+    position: relative;
+}
+
+.mainad p {
+    font-family: icomoon;
+    position: absolute;
+    top: -15px;
+    right: 0;
+    color: whitesmoke;
+}
+
+.main .mainDisplay {
+    width: 1226px;
+    height: 320px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.mainDisplay .mainDisplayLeft {
+    height: 320px;
+    width: 230px;
+    background-color: #f1eded;
+}
+
+.mainDisplay .mainDisplaySlide {
+    height: 320px;
+    width: 982px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: pink;
+}
+
+.mainDisplaySlide ul {
+    list-style: none;
+    position: absolute;
+    top: -16px;
+    left: -30px;
+}
+
+.mainDisplaySlide ul li {
+    float: left;
+    width: 210px;
+    height: 320px;
+    margin: 0 16.5px;
+    background-color: white;
+
+}
+
+.mainDisplaySlide ul li p {
+    text-align: center;
+}
